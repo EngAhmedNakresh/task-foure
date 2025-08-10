@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header  */
+header{
+    background-image:url(../image/drew-coffman-1872.jpg);
+    height: 1100px;
+    overflow: hidden;
+}
+nav img{
+    float: left;
+    width: 130px;
+    padding: 15px;
+}
+nav a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: x-large;
+    font-weight: 800;
+    transition: 2s;
+}
+nav a:hover{
+    color: darkred;
+}
+.head{
+    margin-top: 400px;
+    text-align: center;
+    color: aliceblue;
+}
+.head h1{
+    font-size: xxx-large;
+    font-weight: 900;
+}
+.btn{
+    margin-left: 770px;
+    padding-top: 20px;
+}
+.btn button{
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    color: aliceblue;
+}
+.border{
+    border: 3px white solid;
+    background: none;
+}
+.btn-color{
+    background-color: rgb(168, 114, 15);
+    color: aliceblue;
+}
+
+/* section one  */
+.who-we-are{
+    overflow: hidden;
+}
+.img1{
+    float: left;
+}
+.img1 img{
+    width: 70%;
+    padding: 30px;
+    
+}
+.conn1{
+    float: right;
+    width: 30%;
+    max-width: 50ch;
+    padding-right: 500px;
+    padding-top: 70px;
+    padding-left: 0px;
+    text-align: center;
+}
+.conn1 p{
+    font-size: large;
+    font-weight: 400;
+    text-align: justify;
+}
+.conn1 ul li{
+    text-align: justify;
+    font-size: large;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+/* section two  */
+.our-location{
+    overflow: hidden;
+}
+.img2{
+    float: right;
+}
+.img2 img{
+    width: 60%;
+    padding: 30px;
+    padding-left: 200px;
+}
+.conn2{
+    float: left;
+    width: 30%;
+    padding-left: 150px;
+    padding-top: 150px;
+    text-align: center;
+}
+.conn2{
+    font-size: large;
+    font-weight: 400;
+    text-align: justify;
+}
+/* section three  */
+.our-baking{
+    margin-top: 50px;
+}
+.conn3{
+    text-align: center;
+    font-size: larger;
+}
+.con-card{
+    display: flex;
+    justify-items: center;
+}
+.card{
+    padding: 10px;
+}
+.card h3{
+    text-align: center;
+}
+/* section foure  */
+.conn4{
+    overflow: hidden;
+}
+.conn5{
+    float: left;
+    width: 40%;
+    padding-left: 100px;
+    font-size: larger;
+    padding-top: 40px;
+}
+.location{
+    float: right;
+    width: 40%;
+    padding-top: 40px;
+}
+.location iframe{
+    width: 500px;
+    height: 350px;
+}
+.conn5 ul li{
+    padding-bottom: 15px;
+}
+/* section five  */
+.all{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+.card1{
+    max-width: 30ch;
+    padding: 90px;
+    text-align: justify;
+}
+/* section footer  */
+footer img{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 20%;
+}
+footer{
+    text-align: center;
+    background-color: rgb(70, 68, 68);
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    padding-top: 20px;
+}
